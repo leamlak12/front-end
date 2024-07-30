@@ -1,0 +1,80 @@
+.form {
+    width: 70vw;
+    height: 65vh;
+    border: 2px solid #864545;
+    margin: auto;
+    margin-top: 5vh;
+    padding: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.f1 {
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-sizing: border-box;
+}
+
+.forms {
+    background-image: url(image/form.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.inp {
+    border-radius: 2em;
+}
+
+.homebt {
+    background-image: url(image/homet.jpg);
+    background-position: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direct {
+    background-image: url(image/director.jpeg);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.asign {
+    background-image: url(image/asign.jpg);
+    background-position: unset;
+    background-size: cover;
+}
+
+.dd {
+    margin-left: 7em;
+    margin-top: 10em;
+    color: #ffffff;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2em;
+    width: 60vw;
+    height: 8vh;
+    background: #ce9f11;
+    outline: none;
+    border: none;
+    transition: 3s ease;
+}
+
+.dd:hover {
+    cursor: pointer;
+    background: #ffc000;
+    box-shadow: 0 0 5px #ffc000, 0 0 20px #ffc000, 0 0 60px #ffc000, 0 0 150px #ffc000;
+}
+
+.in {
+    color: #ffffff;
+    display: flex;
+    width: 5em;
+    height: 3em;
+    border-radius: 2em;
+    background: #ffc000;
+    outline: none;
+    border: none;
+}
